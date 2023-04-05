@@ -7,5 +7,117 @@
         "DOWN": "\\        /\n \\      / \n  \\    /  \n   \\  /   \n    \\/",
         "LEFT": "    /\n   /\n  /\n /\n/\n\\\n \\\n  \\\n   \\\n    \\\n",
         "RIGHT": "\\\n \\\n  \\\n   \\\n    \\\n    /\n   /\n  /\n /\n/\n"
+    },
+    "CARDS": {
+        "EXPLODING_KITTEN": {
+            "CARD": "|----------------------|\n|                      |\n|   EXPLODING KITTEN   |\n|                      |\n|                      |\n|                      |\n|                      |\n|                      |\n|                      |\n|  Try not to die now  |\n|                      |\n|                      |\n|                      |\n|                      |\n|----------------------|",
+            "AMMOUNT": 4
+        },
+        "ZOMBIE_KITTEN": {
+            "CARD": "|----------------------|\n|                      |\n|     ZOMBIE KITTEN    |\n|                      |\n|                      |\n|                      |\n|                      |\n|    If you draw an    |\n|   exploding kitten   |\n|   you can play this  |\n|    to not explode    |\n|                      |\n|                      |\n|                      |\n|----------------------|",
+            "AMMOUNT": 5
+        },
+        "ATTACK": {
+            "CARD": "|----------------------|\n|                      |\n|        ATTACK        |\n|                      |\n|                      |\n|                      |\n|                      |\n|                      |\n|    Force the next    |\n|    player to take    |\n|       two turns      |\n|                      |\n|                      |\n|                      |\n|----------------------|",
+            "ICON": 2,
+            "NO_ICON": 0,
+            "NOW": false
+        },
+        "NOPE": {
+            "CARD": "|----------------------|\n|                      |\n|         NOPE         |\n|                      |\n|                      |\n|                      |\n|                      |\n|                      |\n|    Stop the action   |\n|   of another player  |\n|                      |\n|                      |\n|                      |\n|                      |\n|----------------------|",
+            "ICON": 2,
+            "NO_ICON": 3,
+            "NOW": true
+        },
+        "CLAIRVOYANCE": {
+            "CARD": "|----------------------|\n|                      |\n|     CLAIRVOYANCE     |\n|                      |\n|                      |\n|                      |\n|                      |\n|    When someone is   |\n|  hiding an exploding |\n|    kitten you get    |\n|   to see where they  |\n|        hide it       |\n|                      |\n|                      |\n|----------------------|",
+            "ICON": 1,
+            "NO_ICON": 1,
+            "NOW": true
+        },
+        "SKIP": {
+            "CARD": "|----------------------|\n|                      |\n|         SKIP         |\n|                      |\n|                      |\n|                      |\n|                      |\n|                      |\n|                      |\n|    Skip your turn    |\n|                      |\n|                      |\n|                      |\n|                      |\n|----------------------|",
+            "ICON": 1,
+            "NO_ICON": 2,
+            "NOW": false
+        },
+        "SUPER_SKIP": {
+            "CARD": "|----------------------|\n|                      |\n|      SUPER SKIP      |\n|                      |\n|                      |\n|                      |\n|                      |\n|                      |\n|    Skip your turn,   |\n|    if you need to    |\n|  take multiple turns |\n|    skip them all     |\n|                      |\n|                      |\n|----------------------|",
+            "ICON": 1,
+            "NO_ICON": 1,
+            "NOW": false
+        },
+        "SEE_THE_FUTURE": {
+            "CARD": "|----------------------|\n|                      |\n|    SEE THE FUTURE    |\n|                      |\n|                      |\n|                      |\n|                      |\n|                      |\n|     Look at the      |\n|   top three cards    |\n|   in the draw deck   |\n|                      |\n|                      |\n|                      |\n|----------------------|",
+            "ICON": 2,
+            "NO_ICON": 2,
+            "NOW": false
+        },
+        "SHUFFLE": {
+            "CARD": "|----------------------|\n|                      |\n|       SHUFFLE        |\n|                      |\n|                      |\n|                      |\n|                      |\n|                      |\n|      Shuffle the     |\n|       draw deck      |\n|                      |\n|                      |\n|                      |\n|                      |\n|----------------------|",
+            "ICON": 1,
+            "NO_ICON": 1,
+            "NOW": true
+        },
+        "FEED_THE_DEAD": {
+            "CARD": "|----------------------|\n|                      |\n|     FEED THE DEAD    |\n|                      |\n|                      |\n|                      |\n|                      |\n| Every living player  |\n|  (except you) must   |\n|     give a card      |\n|   to a dead player   |\n|                      |\n|                      |\n|                      |\n|----------------------|",
+            "ICON": 0,
+            "NO_ICON": 2,
+            "NOW": true
+        },
+        "CLONE": {
+            "CARD": "|----------------------|\n|                      |\n|         CLONE        |\n|                      |\n|                      |\n|                      |\n|                      |\n|   Acts as the last   |\n|    card thrown in    |\n|     the draw deck    |\n|                      |\n|                      |\n|                      |\n|                      |\n|----------------------|",
+            "ICON": 1,
+            "NO_ICON": 2,
+            "NOW": false
+        },
+        "GRAVE_ROBEBR": {
+            "CARD": "|----------------------|\n|                      |\n|     GRAVE ROBBER     |\n|                      |\n|                      |\n|                      |\n|                      |\n|                      |\n|   All dead players   |\n|   must chose a card  |\n|    to shuffle back   |\n|        into the      |\n|       draw deck      |\n|                      |\n|----------------------|",
+            "ICON": 0,
+            "NO_ICON": 1,
+            "NOW": false
+        },
+        "FAVOR": {
+            "CARD": "|----------------------|\n|                      |\n|         FAVOR        |\n|                      |\n|                      |\n|                      |\n|                      |\n|     Force another    |\n|     player to give   |\n|      you a card      |\n|                      |\n|                      |\n|                      |\n|                      |\n|----------------------|",
+            "ICON": 1,
+            "NO_ICON": 2,
+            "NOW": false
+        },
+        "DIG_DEEPER": {
+            "CARD": "|----------------------|\n|                      |\n|      DIG DEEPER      |\n|                      |\n|                      |\n|                      |\n|                      |\n|                      |\n|   Draw a card and    |\n|   look at it, keep   |\n|    it or keep the    |\n|     second card      |\n|                      |\n|                      |\n|----------------------|",
+            "ICON": 2,
+            "NO_ICON": 2,
+            "NOW": false
+        },
+        "ATTACK_OF_THE_DEAD": {
+            "CARD": "|----------------------|\n|  ATTACK OF THE DEAD  |\n|                      |\n|                      |\n|                      |\n|                      |\n|    Force the next    |\n|    player to take    |\n|    three turns for   |\n|   each dead player   |\n|                      |\n|                      |\n|                      |\n|                      |\n|----------------------|",
+            "ICON": 0,
+            "NO_ICON": 3,
+            "NOW": false
+        },
+        "VAMPIRE_CAT": {
+            "CARD": "|----------------------|\n|                      |\n|      VAMPIRE CAT     |\n|                      |\n|                      |\n|                      |\n|                      |\n| This card is usseless|\n| on its own, play two |\n|   of these cards to  |\n|   steal a card from  |\n|   a player, three to |\n|    say which card    |\n|                      |\n|----------------------|",
+            "ICON": 8,
+            "NO_ICON": 8,
+            "NOW": false
+        },
+        "DE-CAT-IPATED": {
+            "CARD": "|----------------------|\n|                      |\n|     DE-CAT-IPATED    |\n|                      |\n|                      |\n|                      |\n|                      |\n| This card is usseless|\n| on its own, play two |\n|   of these cards to  |\n|   steal a card from  |\n|   a player, three to |\n|    say which card    |\n|                      |\n|----------------------|",
+            "ICON": 8,
+            "NO_ICON": 8,
+            "NOW": false
+        },
+        "CAT-O-LANTERN": {
+            "CARD": "|----------------------|\n|                      |\n|     CAT-O-LANTERN    |\n|                      |\n|                      |\n|                      |\n|                      |\n| This card is usseless|\n| on its own, play two |\n|   of these cards to  |\n|   steal a card from  |\n|   a player, three to |\n|    say which card    |\n|                      |\n|----------------------|",
+            "ICON": 8,
+            "NO_ICON": 8,
+            "NOW": false
+        },
+        "ELECTROCAT": {
+            "CARD": "|----------------------|\n|                      |\n|      ELECTROCAT      |\n|                      |\n|                      |\n|                      |\n|                      |\n| This card is usseless|\n| on its own, play two |\n|   of these cards to  |\n|   steal a card from  |\n|   a player, three to |\n|    say which card    |\n|                      |\n|----------------------|",
+            "ICON": 8,
+            "NO_ICON": 8,
+            "NOW": false 
+        }
     }
 }
